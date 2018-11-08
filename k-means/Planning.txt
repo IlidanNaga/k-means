@@ -1,0 +1,28 @@
+Just an idea:
+
+1) generating centers of further clusters
+2) making a 'web' of control points (have to thing about their placement)
+3) wireing this web to the cluster centers, we get pretty realistic split of the plane
+4) generating points, ones which connect to no centers - removed
+5) as a result we get a set of non-connecting clusters (which still needed to be detected), which fills almost all the plane
+6) clustering as "find points which are close enought and wire them", if you have way too many points in one cluster - try to split them into several new ones
+
+
+Right now i have:
+
+1) generating centers
+2) finding length between this centers
+3) finding the closest of all of the lengthes
+4) generating random points in range -0.7 - 0.7
+5) generating random list of belongings to centers
+6) moving this point to the square near the generated center, size of square - def too cmall
+7) dieing in attempt to use prev generation of cluster making, rn no clusterisation done
+
+
+What we have to do... once again:
+
+20x20 : 0.1  44 100 
+
+Right now i have vector - column
+also i need a vector - line for easy broadcasting
+        
