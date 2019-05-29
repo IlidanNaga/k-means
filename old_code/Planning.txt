@@ -26,3 +26,7 @@ What we have to do... once again:
 Right now i have vector - column
 also i need a vector - line for easy broadcasting
         
+        
+        
+euristics idea
+
